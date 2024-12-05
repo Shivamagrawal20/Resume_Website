@@ -1,0 +1,98 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+header h1 {
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+
+header h1 span {
+    font-weight: bold;
+}
+
+header h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #666;
+}
+
+/* Main Content */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 20px;
+    flex: 1 1 calc(50% - 20px);
+    margin-right: 20px;
+}
+
+section:last-child {
+    margin-right: 0;
+}
+
+h3 {
+    font-size: 1.2rem;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.skills p, .education p, .about p {
+    margin: 10px 0;
+}
+
+/* Work Experience */
+.work-experience h4 {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.work-experience p {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.work-experience ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
