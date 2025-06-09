@@ -3,7 +3,7 @@ import { ExternalLink } from "lucide-react"
 
 const achievements = [
   {
-    img: "/assets/google ai workshop.png",
+    img: "./assets/google ai workshop.png",
     alt: "Bring ai Workspace",
     title: "Bring ai Workspace",
     desc: "A detailed workshop on how to use AI in your workspace",
@@ -12,7 +12,7 @@ const achievements = [
     link: ""
   },
   {
-    img: "/assets/NPTEL.png",
+    img: "./assets/NPTEL.png",
     alt: "Introduction to Environmental Engineering and Science - Fundamental and Sustainability Concepts",
     title: "Introduction to Environmental Engineering and Science - Fundamental and Sustainability Concepts",
     desc: "A detailed workshop on how to use AI in your workspace",
@@ -21,7 +21,7 @@ const achievements = [
     link: ""
   },
   {
-    img: "/assets/udemy.jpg",
+    img: "./assets/udemy.jpg",
     alt: "Udemy Certificate",
     title: "The Complete Python Bootcamp",
     desc: "Python programming fundamentals, data structures, and object-oriented programming.",
@@ -30,7 +30,7 @@ const achievements = [
     link: "https://www.udemy.com/certificate/UC-96af47ef-b91d-41b2-a89e-6c8af50a93df/"
   },
   {
-    img: "/assets/postman.png",
+    img: "./assets/postman.png",
     alt: "Postman Certificate",
     title: "Postman API Fundamentals Student Expert",
     desc: "API testing, documentation, and automation using Postman.",
@@ -39,7 +39,7 @@ const achievements = [
     link: "https://badgr.com/public/assertions/your-postman-certificate-id"
   },
   {
-    img: "/assets/hacklikeapro.png",
+    img: "./assets/hacklikeapro.png",
     alt: "Postman Certificate",
     title: "",
     desc: "HACK LIKE A PRO- WIN THE ULTIMATE CTF BATTLE A 5 DAY BATTLE",
@@ -48,7 +48,7 @@ const achievements = [
     link: ""
   },
   {
-    img: "/assets/oneroadmap.png",
+    img: "./assets/oneroadmap.png",
     alt: "Data Analyst Certification",
     title: "One Roadmap Skill Certification Test",
     desc: "Data Analysis fundamentals including statistics, SQL, data visualization, and analytical tools.",
@@ -57,7 +57,7 @@ const achievements = [
     link: "https://oneroadmap.io/skills/da/certificate/CERT-0AA9720D"
   },
   {
-    img: "/assets/unstop-min.jpg",
+    img: "./assets/unstop-min.jpg",
     alt: "Unstop Certificate",
     title: "E-Commerce & Tech Quiz",
     desc: "Flipkart GRiD 6.0 - Software Development Track participation certificate.",
@@ -66,7 +66,7 @@ const achievements = [
     link: "https://unstop.com/certificate-preview/0572ade8-61ea-45b3-b1f3-325083f78ffd"
   },
   {
-    img: "/assets/mastry.png",
+    img: "./assets/mastry.png",
     alt: "mastry certificate",
     title: "UI/UX DESIGN",
     desc: "UI/UX design for begginers",
