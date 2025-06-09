@@ -208,4 +208,20 @@ const updateActiveNavLink = () => {
 };
 
 window.addEventListener('scroll', updateActiveNavLink);
-window.addEventListener('load', updateActiveNavLink); 
+window.addEventListener('load', updateActiveNavLink);
+
+function toggleExperience(card) {
+    const expanded = card.classList.contains('expanded');
+    // Collapse all cards
+    document.querySelectorAll('.timeline-modern-card').forEach(c => {
+        c.classList.remove('expanded');
+        const details = c.querySelector('.card-details');
+        if (details) details.style.display = 'none';
+    });
+    // Expand this card if it wasn't already expanded
+    if (!expanded) {
+        card.classList.add('expanded');
+        const details = card.querySelector('.card-details');
+        if (details) details.style.display = 'block';
+    }
+} 
