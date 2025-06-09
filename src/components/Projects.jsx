@@ -7,7 +7,7 @@ const projectsData = [
     id: 1,
     title: "Resume Website",
     description: "A modern, responsive personal portfolio website built with React and Tailwind CSS. Features smooth animations, dark mode, and a clean UI design.",
-    image: "./assets/project1.png",
+    image: "/assets/project1.png",
     technologies: ["React", "Tailwind CSS", "Framer Motion", "Vite"],
     github: "https://github.com/Shivamagrawal20/resume-website",
     live: "",
@@ -16,13 +16,16 @@ const projectsData = [
       "Dark Mode Support",
       "Smooth Animations",
       "Interactive UI"
-    ]
+    ],
+    hackathon: {
+      name: "HACKHAZARDS 2025"
+    }
   },
   {
     id: 2,
     title: "Interactive AI Tutor",
     description: "A website that uses AI to tutor students",
-    image: "./assets/project2.png",
+    image: "/assets/project2.png",
     technologies: ["React", "Node.js", "MongoDB", "Express","AI"],
     github: "https://github.com/Shivamagrawal20/AI-powered-eductional-assistant",
     live: "https://shivamagrawal20.github.io/AI-powered-eductional-assistant/",
@@ -31,16 +34,13 @@ const projectsData = [
       "User Dashboard",
       "Profile",
       "Payment Integration"
-    ],
-    hackathon: {
-      name: "HACKHAZARDS 2025"
-    }
+    ]
   },
   {
     id: 3,
     title: "Task Management App",
     description: "A collaborative task management application with real-time updates, team features, and progress tracking.",
-    image: "./assets/project3.png",
+    image: "/assets/project3.png",
     technologies: ["HTML", "CSS",],
     github: "https://github.com/Shivamagrawal20/informationtaking",
     live: "https://shivamagrawal20.github.io/informationtaking/",
@@ -49,16 +49,13 @@ const projectsData = [
       "Team Collaboration",
       "Progress Tracking",
       "Task Categories"
-    ],
-    hackathon: {
-      name: "ODDO"
-    }
+    ]
   },
   {
     id: 4,
     title: "MiniShop",
     description: "A simple e-commerce web application with two main tabs — one for submitting products, and one for viewing submitted products with a search feature.",
-    image: "./assets/project5.png",
+    image: "/assets/project5.png",
     technologies: ["Express", "PostgreSQL", "Node.js", "Tailwind CSS"],
     github: "https://github.com/Shivamagrawal20/MiniShop",
     live: "https://task-management-shivam.vercel.app",
@@ -73,7 +70,7 @@ const projectsData = [
     id: 5,
     title: "EcoLens",
     description: "Analyze climate data, track pollution levels, and get actionable insights to protect our planet with cutting-edge AI technology powered by MongoDB Atlas.",
-    image: "./assets/project4.png",
+    image: "/assets/project4.png",
     technologies: ["Express", "PostgreSQL", "Node.js", "Tailwind CSS","AI"],
     github: "https://github.com/Shivamagrawal20/EcoLense",
     live: "https://chat-magic-website-builder.lovable.app/",

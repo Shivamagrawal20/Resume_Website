@@ -46,15 +46,15 @@ export default function HackathonsSection() {
         <div className="flex gap-4 xs:gap-6 pb-2 xs:pb-4">
           {hackathons.map((hack, idx) => (
             <div key={idx} className="min-w-[220px] xs:min-w-[260px] sm:min-w-[340px] max-w-[90vw] sm:max-w-[340px] bg-white rounded-2xl shadow-lg flex flex-col">
-              <div className="hacathon-image p-2 xs:p-4">
+              <div className="hacathon-image p-4 xs:p-5">
                 <img
                   src={hack.img}
                   alt={hack.alt}
-                  className="rounded-lg w-full h-28 xs:h-36 sm:h-44 object-cover bg-white border border-gray-200 shadow-sm p-1 xs:p-2"
+                  className="rounded-lg w-full h-28 xs:h-36 sm:h-44 object-cover bg-white border border-gray-200 shadow-sm p-2 xs:p-3"
                   onError={e => { e.target.src = "/assets/default-hackathon.png"; }}
                 />
               </div>
-              <div className="hacathon-content px-3 xs:px-4 pb-3 xs:pb-4 flex flex-col flex-1">
+              <div className="hacathon-content px-4 xs:px-5 pb-4 xs:pb-5 flex flex-col flex-1">
                 <h3 className="text-base xs:text-lg font-bold text-[#4169E1] mb-1 xs:mb-2 break-words">{hack.title}</h3>
                 <div className="hacathon-meta flex flex-wrap gap-2 xs:gap-3 mb-1 xs:mb-2 text-xs xs:text-sm text-gray-600">
                   <div className="flex items-center gap-1"><Calendar className="w-3 h-3 xs:w-4 xs:h-4" /><span>{hack.date}</span></div>

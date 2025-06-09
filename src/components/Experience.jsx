@@ -79,8 +79,8 @@ export default function Experience() {
   }
 
   return (
-    <section className="w-full py-8 px-2 sm:px-4 md:px-8" id="experience">
-      <div className="bg-white rounded-2xl shadow-lg p-4 sm:p-6 md:p-12">
+    <section className="w-full py-8 px-2 sm:px-2 md:px-4" id="experience">
+      <div className="bg-white rounded-2xl shadow-lg p-2 sm:p-2 md:p-4">
         <motion.h2
           className="text-xl xs:text-2xl sm:text-3xl md:text-4xl font-extrabold text-blue-600 mb-4 sm:mb-8 text-center break-words"
           initial={{ opacity: 0, y: -20 }}

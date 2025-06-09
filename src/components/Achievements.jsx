@@ -26,7 +26,7 @@ const achievements = [
     title: "The Complete Python Bootcamp",
     desc: "Python programming fundamentals, data structures, and object-oriented programming.",
     issuer: "Udemy",
-    year: "2023",
+    year: "2024",
     link: "https://www.udemy.com/certificate/UC-96af47ef-b91d-41b2-a89e-6c8af50a93df/"
   },
   {

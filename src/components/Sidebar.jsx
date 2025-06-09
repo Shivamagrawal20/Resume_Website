@@ -80,10 +80,9 @@ export default function Sidebar() {
           <div className="flex flex-col items-center mb-10">
             <div className="w-28 h-28 rounded-full overflow-hidden mb-4 border-4 border-blue-500 shadow-lg">
               <img
-                src="./assets/profilefinal.png"
+                src="/assets/profilefinal.png"
                 alt="Shivam Agrawal"
                 className="w-full h-full object-cover"
-                onError={e => { e.target.src = "./assets/default-profile.png"; }}
               />
             </div>
             <h1 className="text-2xl font-extrabold tracking-wide text-white text-center leading-tight">
