@@ -58,10 +58,45 @@
         </aside>
 
         <main class="content">
-            <section id="about" class="section">
+            <section id="about" class="section about-section">
                 <h2>About Me</h2>
-                <div class="about-content">
-                    <p>👨‍💻 Code by day, debug by night. Turning caffeine into code, teaching OOP to plants 🌿, and making websites smarter. B.Tech in CSE, certified in WebDev, APIs, and AI. Let's connect and create something awesome!</p>
+                <p class="about-headline">A passionate CS student who loves turning ideas into reality through code</p>
+                <div class="about-main">
+                    <div class="about-left">
+                        <p>
+                            I'm currently pursuing my Bachelor's in Computer Science with a focus on web development and user experience design. I love the challenge of solving complex problems and the satisfaction of seeing my code come to life in the browser.
+                        </p>
+                        <p>
+                            When I'm not coding, you'll find me organizing hackathons, mentoring fellow students, or exploring the latest tech trends. I believe in the power of collaboration and continuous learning in our rapidly evolving field.
+                        </p>
+                        <ul class="about-info">
+                            <li><i class="fas fa-graduation-cap"></i> CS Major, Class of 2025</li>
+                            <li><i class="fas fa-calendar"></i> Available for Internships</li>
+                            <li><i class="fas fa-map-marker-alt"></i> San Francisco, CA</li>
+                            <li><i class="fas fa-envelope"></i> shivamprfs@gmail.com</li>
+                        </ul>
+                    </div>
+                    <div class="about-right">
+                        <h3>Quick Stats</h3>
+                        <div class="stats-grid">
+                            <div class="stat-card">
+                                <span class="stat-value">3.8</span>
+                                <span class="stat-label">GPA</span>
+                            </div>
+                            <div class="stat-card">
+                                <span class="stat-value">15+</span>
+                                <span class="stat-label">Projects</span>
+                            </div>
+                            <div class="stat-card">
+                                <span class="stat-value">500+</span>
+                                <span class="stat-label">GitHub Commits</span>
+                            </div>
+                            <div class="stat-card">
+                                <span class="stat-value">3</span>
+                                <span class="stat-label">Hackathons Won</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
 
@@ -397,11 +432,13 @@
                                 <p>participated in HACKHAZARDS '25, the world's largest independent community-run hackathon organized by The NAMESPACE Community during 11-27 April 2025.
                                     The event brought together over 17,000 hackers across 25+ countries for cutting-edge projects across AI, Web3, Software, Infra and more..</p>
                                 <div class="hacathon-links">
-                                    <a href="#" class="hacathon-link" target="_blank">
-                                        <i class="fas fa-code"></i> View Project
+                                    <a href="#" class="hacathon-link project-link-btn" target="_blank">
+                                        <i class="fas fa-code"></i>
+                                        <span>View Project</span>
                                     </a>
-                                    <a href="#" class="hacathon-link" target="_blank">
-                                        <i class="fas fa-video"></i> Demo Video
+                                    <a href="#" class="hacathon-link video-link-btn" target="_blank">
+                                        <i class="fas fa-play-circle"></i>
+                                        <span>Watch Demo</span>
                                     </a>
                                 </div>
                             </div>
@@ -433,11 +470,13 @@
                                 </div>
                                 <p>participated in Round 1 of the Clash of Codes v1.0, held on 10th November 2024, organized by the TechNexus Community.</p>
                                 <div class="hacathon-links">
-                                    <a href="#" class="hacathon-link" target="_blank">
-                                        <i class="fas fa-code"></i> View Project
+                                    <a href="#" class="hacathon-link project-link-btn" target="_blank">
+                                        <i class="fas fa-code"></i>
+                                        <span>View Project</span>
                                     </a>
-                                    <a href="#" class="hacathon-link" target="_blank">
-                                        <i class="fas fa-video"></i> Demo Video
+                                    <a href="#" class="hacathon-link video-link-btn" target="_blank">
+                                        <i class="fas fa-play-circle"></i>
+                                        <span>Watch Demo</span>
                                     </a>
                                 </div>
                             </div>
@@ -469,11 +508,13 @@
                                 </div>
                                 <p>Participated in Oddo 2024, a 24-hour hackathon organized by the Oddo Community.</p>
                                 <div class="hacathon-links">
-                                    <a href="#" class="hacathon-link" target="_blank">
-                                        <i class="fas fa-code"></i> View Project
+                                    <a href="#" class="hacathon-link project-link-btn" target="_blank">
+                                        <i class="fas fa-code"></i>
+                                        <span>View Project</span>
                                     </a>
-                                    <a href="#" class="hacathon-link" target="_blank">
-                                        <i class="fas fa-video"></i> Demo Video
+                                    <a href="#" class="hacathon-link video-link-btn" target="_blank">
+                                        <i class="fas fa-play-circle"></i>
+                                        <span>Watch Demo</span>
                                     </a>
                                 </div>
                             </div>
@@ -482,21 +523,22 @@
                 </div>
             </section>
 
-            <section id="contact" class="section">
-                <h2>Contact</h2>
-                <div class="contact-form">
-                    <form>
-                        <div class="form-group">
-                            <input type="text" placeholder="Name" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" placeholder="Email" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea placeholder="Message" required></textarea>
-                        </div>
-                        <button type="submit" class="submit-btn">Send Message</button>
-                    </form>
+            <section id="contact" class="section connect-section">
+                <h2 class="connect-title">Let's Connect!</h2>
+                <p class="connect-desc">I'm always excited to discuss new opportunities, collaborate on projects, or just chat about technology and innovation. Let's build something amazing together!</p>
+                <div class="connect-buttons">
+                    <a href="mailto:shivamprfs@gmail.com" class="connect-btn connect-btn--primary" target="_blank">
+                        <i class="fas fa-envelope"></i>
+                        <span>Send Email</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/shivam-agrawal-profile/" class="connect-btn connect-btn--outline" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                        <span>Connect on LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/Shivamagrawal20" class="connect-btn connect-btn--outline" target="_blank">
+                        <i class="fab fa-github"></i>
+                        <span>Follow on GitHub</span>
+                    </a>
                 </div>
             </section>
         </main>
