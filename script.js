@@ -184,15 +184,6 @@ shareButtons.forEach(button => {
     });
 });
 
-// Download Resume Button
-const downloadBtn = document.querySelector('.download-btn');
-
-downloadBtn.addEventListener('click', (e) => {
-    e.preventDefault();
-    // You can add your resume PDF file here
-    alert('Resume download functionality will be implemented soon!');
-});
-
 // Navigation Active State
 const sections = document.querySelectorAll('section');
 const navLinks = document.querySelectorAll('.nav-link');
