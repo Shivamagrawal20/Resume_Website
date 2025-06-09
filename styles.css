@@ -906,6 +906,7 @@ body {
   color: #2563eb;
   margin-bottom: 18px;
   letter-spacing: -1px;
+  text-align: center;
 }
 
 .about-headline {
@@ -997,12 +998,11 @@ body {
   border: 1.5px solid #e0e7ef;
   transition: transform 0.18s, box-shadow 0.18s;
   cursor: pointer;
-}
-
-.stat-card:hover {
-  transform: translateY(-4px) scale(1.04);
-  box-shadow: 0 8px 32px rgba(37, 99, 235, 0.13);
-  background: #e8f0fe;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 140px;
 }
 
 .stat-value {
@@ -1012,6 +1012,18 @@ body {
   display: block;
   margin-bottom: 4px;
   letter-spacing: -1px;
+  word-break: break-word;
+}
+
+/* Make 'Currently increasing' smaller and less bold */
+.stat-card .stat-value {
+  font-size: 2.3rem;
+  font-weight: 800;
+}
+.stat-card:nth-child(3) .stat-value {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #2563eb;
 }
 
 .stat-label {
@@ -1023,14 +1035,14 @@ body {
   letter-spacing: -0.5px;
 }
 
-@media (max-width: 900px) {
-  .about-main {
-    flex-direction: column;
-    gap: 36px;
-  }
-  .about-right {
-    width: 100%;
-    min-width: unset;
-    margin: 0 auto;
+.stat-card:hover {
+  transform: translateY(-4px) scale(1.04);
+  box-shadow: 0 8px 32px rgba(37, 99, 235, 0.13);
+  background: #e0e7ff;
+}
+
+@media (max-width: 700px) {
+  .stats-grid {
+    grid-template-columns: 1fr;
   }
 }
