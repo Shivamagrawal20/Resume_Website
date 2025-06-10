@@ -3,7 +3,7 @@ import { Code2, PlayCircle, Calendar, Users, User } from "lucide-react"
 
 const hackathons = [
   {
-    img: "/Resume_Website/images/HARACARDS.png",
+    img: "/images/HARACARDS.png",
     alt: "HACKHAZARS",
     title: "HACKHAZARS 2025",
     date: "11-17 April 2025",
@@ -15,7 +15,7 @@ const hackathons = [
     videoLink: "https://www.youtube.com/watch?v=4p5BH5IKX8E"
   },
   {
-    img: "/Resume_Website/images/technexus.jpeg",
+    img: "/images/technexus.jpeg",
     alt: "Clash of codes 2.0",
     title: "Clash of codes 2.0",
     date: "10 Nov 2024",
@@ -26,7 +26,7 @@ const hackathons = [
     videoLink: " "
   },
   {
-    img: "/Resume_Website/images/oddo.png",
+    img: "/images/oddo.png",
     alt: "Oddo 2024",
     title: "Oddo 2024",
     date: "30 June 2024",
