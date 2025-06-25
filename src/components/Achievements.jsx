@@ -109,16 +109,21 @@ export default function AchievementsSection() {
       </div>
       <div className="view-more-badges text-center mt-8 xs:mt-12">
         <p className="text-gray-600 text-base xs:text-lg mb-3 xs:mb-4">View more of my certifications and badges</p>
-        <a
-          href="https://www.credly.com/users/shivam-agrawal.21"
-          className="credly-link inline-block w-full max-w-xs"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <div className="credly-box bg-[#388e3c] hover:bg-[#256029] px-6 xs:px-12 py-2.5 xs:py-3 rounded-xl flex items-center justify-center">
-            <span className="credly-text text-white font-bold text-lg xs:text-2xl">Credly</span>
-          </div>
-        </a>
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <a
+            href="https://www.credly.com/users/shivam-agrawal.21"
+            className="credly-link inline-block w-full max-w-xs"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="credly-box bg-[#388e3c] hover:bg-[#256029] px-6 xs:px-12 py-2.5 xs:py-3 rounded-xl flex items-center justify-center">
+              <span className="credly-text text-white font-bold text-lg xs:text-2xl">Credly</span>
+            </div>
+          </a>
+          <a href="https://geamc.com/certificates/employee/CP-833D5FG2L6" target="_blank" rel="noopener noreferrer">
+            <img src="/images/geamc-badge.svg" alt="GEAMC Verified Professional - shivamprfs@gmail.com" style={{ width: 250, height: 54 }} width="250" height="54" />
+          </a>
+        </div>
       </div>
     </section>
   )
